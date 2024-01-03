@@ -1,0 +1,21 @@
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.info{
+    background: url("/assets/img/LibroMejorResenia.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.info img{
+    max-width: 100%;
+}
+.login{
+    background:  #f8f8f8  ;
+}   

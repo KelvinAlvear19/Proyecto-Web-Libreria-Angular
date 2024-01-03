@@ -1,0 +1,37 @@
+<div class="d-flex" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper"  [ngClass]="status ? 'hide' : 'show'">
+      <div class="sidebar-heading">Biblioteca Virtual</div>
+      <div class="list-group list-group-flush" *ngFor="let menu of listMenu">
+        <a    class="list-group-item list-group-item-action bg-light">
+          <button   [routerLink]="menu.url" class="btnedit">
+            <img src="{{menu.icon}}" alt="" height="50px">
+            <span *ngIf="expanded">{{menu.tittle}}</span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div id="page-content-wrapper" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="btn btn-light" (click)="clickEvent()"></button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div  id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-10 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/img/libroHeader.png" height="50px" alt="">
+                    Kevin Alvear
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="">Cerrar Sesion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>

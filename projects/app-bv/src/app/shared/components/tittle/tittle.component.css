@@ -1,0 +1,19 @@
+img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+img{
+    
+    width: 60px;
+    height: 60px;
+}
+.nav{
+    text-align: left;
+    background: #70b5c4;
+}
+.titulo{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+    color: white;
+}

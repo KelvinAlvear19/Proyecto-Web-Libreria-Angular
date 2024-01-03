@@ -1,0 +1,30 @@
+
+.table{
+    width: 70vw;
+    height: 10vh;
+}
+.editar{
+   color: #d2663e  ;
+}
+.table th{
+    background: #70b5c4;
+    color:white;
+    font-family: 'Caveat Brush', cursive;
+}
+.table td{
+    font-family: 'Caveat Brush', cursive;
+}
+.btn-primary{
+    background: #d2663e !important;
+    border: black !important;
+    display: flex !important;
+}
+.btn-danger{
+    background: #d2663e !important;
+    border: black !important;
+}
+.bi-trash
+{
+  display:inline-block;
+  vertical-align:left;
+}

@@ -1,0 +1,101 @@
+h2{
+    text-align: center;
+    color: white;
+}
+:host{
+    width: 80%;
+    display: block;
+}
+.white-icon{
+    color: white;
+}
+.titu1{
+	color:#70b5c4;
+    font-size: 80px;
+    line-height: 46px;
+    text-align: left;
+    font-family: 'Caveat Brush', cursive;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.titu2{
+	color:#d2663e;
+	font-size: 80px;
+    line-height: 46px;
+    text-align: left;
+    font-family: 'Caveat Brush', cursive;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.loginbox{
+	width: 250px;
+	height: 350px;
+	background:  #f8f8f8 ;
+	color: #000;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+.p span{
+    position: absolute;
+    top: 8;
+    color: #d2663e;
+}
+.bi{
+    position: absolute;
+    color: #d2663e;
+    padding: 3px;
+    border: none;
+    background:none;
+}
+
+.loginbox p{
+	font-family: 'Caveat Brush', cursive;
+	color: #000;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 15px;
+	color: #000;
+	font-family: 'Caveat Brush', cursive;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+
+.btn{
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    background: #70b5c4;
+    color: #ffff;
+    transition: 0.4s;
+	font-family: 'Caveat Brush', cursive;
+}
+.btn:hover{
+    background: #d2663e;
+    color: #ffffff;
+}
+.logo{
+	width: 170px;
+	padding-top: 50px;
+	padding-left: 30px;
+}

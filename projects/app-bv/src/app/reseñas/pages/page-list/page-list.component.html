@@ -1,0 +1,18 @@
+<bv-tittle></bv-tittle>
+<bv-container>
+    <h4 class="tc">Usuario</h4>
+    <input [(ngModel)]="nombre" name="nombre" class="form-control" />
+    <br>
+    <h4 class="tc">Reseña</h4>
+    <input [(ngModel)]="descripcion" name="descripcion" class="form-control"/>
+    <br>
+    <button (click)="onSubmit()" class="btn btn-info">Guardar</button>
+    <br>
+    <br>
+    <bv-table
+    [dataAgency]="dataRes"
+    [columns]="columns"
+    (onDelete)="deleteResenia($event)"
+  ></bv-table>
+
+</bv-container>

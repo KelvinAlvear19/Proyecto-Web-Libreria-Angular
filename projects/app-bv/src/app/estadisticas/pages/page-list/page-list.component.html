@@ -1,0 +1,25 @@
+<bv-tittle></bv-tittle>
+<bv-container>
+    <h4 class="tc">Nombre del Libro</h4>
+    <input [(ngModel)]="nombre" name="nombre" class="form-control"/>
+    <br>
+    <h4 class="tc">Puntuacion</h4>
+    <select [(ngModel)]="descripcion" name="descripcion" class="form-control" >
+      <option value="⭐">⭐</option>
+      <option value="⭐⭐">⭐⭐</option>
+      <option value="⭐⭐⭐">⭐⭐⭐</option>
+      <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+      <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+    </select>
+    <br>
+    <button (click)="onSubmit()" class="btn btn-info">Guardar</button>
+    <br>
+    <br>
+    <bv-table
+    [dataAgency]="dataEst"
+    [columns]="columns"
+    (onDelete)="deleteEstadistica($event)"
+  ></bv-table>
+
+
+</bv-container>
