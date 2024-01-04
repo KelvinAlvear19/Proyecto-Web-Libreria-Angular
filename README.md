@@ -25,7 +25,7 @@ Por favor, consulte la guía oficial de instalación de laravel para los requisi
 
 Clonar el repositorio
 
-      https://github.com/KelvinAlvear19/Economia2.0.git
+      https://github.com/KelvinAlvear19/Economia2.0.git](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular.git
 
 Instalar Dependencias
 
@@ -45,6 +45,9 @@ Ejecuta el proyecto con el comando
 
 Visualizacio del Proyecto
 
-![WhatsApp Image 2024-01-03 at 12 42 32 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/27b5edf7-d71f-4437-ab65-fc3053d966c0)
-![WhatsApp Image 2024-01-03 at 12 43 57 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/ef4fea41-ac89-40da-9674-46e811996940)
-![WhatsApp Image 2024-01-03 at 12 40 58 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/c48b7d73-18a7-42b6-8aaa-364b69c6d6a9)
+
+![WhatsApp Image 2024-01-02 at 9 45 17 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/e6df608a-b336-46b7-b4be-7b29d2d1ca8b)
+![WhatsApp Image 2024-01-02 at 10 22 53 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/3875c1ae-360e-4625-8ebd-5bf7fd28aef4)
+![WhatsApp Image 2024-01-02 at 10 23 24 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/20af3ce8-ba18-449d-a2ea-c47f6c0ac75d)
+![WhatsApp Image 2024-01-02 at 10 23 46 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/889a05d6-2559-4317-a64c-062bc05bd17b)
+![WhatsApp Image 2024-01-02 at 10 24 14 PM](https://github.com/KelvinAlvear19/Proyecto-Web-Libreria-Angular/assets/84355086/f6ec3ab3-ab4d-441f-bbc3-5285050c906f)
